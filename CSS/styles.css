@@ -1,53 +1,124 @@
-*{
+* {
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Serif', serif;
 }
 
-.d-item{
+@media (min-width:768px) {}
+
+@media(max-with:768px) {
+    .container {
+        display: inline-block;
+    }
+
+    .historia-amalfi {
+        width: 100%;
+        height: 5%;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width:320px) {
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+        width: auto;
+    }
+
+    .induccion img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-title {
+        width: auto;
+        font-size: small;
+    }
+
+    .escuela {
+        display: flex;
+        height: auto;
+    }
+
+    h1 {
+        width: auto;
+    }
+}
+
+@media (min-width:320px) {
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .container-fluid {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .induccion img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-title {
+        font-size: small;
+    }
+
+    h1 {
+        width: auto;
+    }
+}
+
+.d-item {
     height: 500px;
 }
 
-.d-img{
+.d-img {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.6);
 }
 
-.container{
+.container {
     height: 300px;
 }
 
-.container .historia-amalfi{
+.container .historia-amalfi {
     display: flex;
 }
 
-.container .historia-amalfi img{
+.image img {
+    width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
-.container .tigre-amalfi{
+.container .tigre-amalfi {
     display: flex;
 }
 
-.container .nav{
+.container .nav {
     width: 100%;
     display: flex;
 }
 
-.container .nav img{
+.container .nav img {
     width: 33.3%;
     padding: 21px;
 }
 
-.container .galery{
+.container .galery {
     width: 100%;
     display: flex;
 }
 
-.container .galery img{
+.container .galery img {
     width: 33.3%;
     padding: 21px;
     object-fit: cover;
