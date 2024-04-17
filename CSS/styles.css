@@ -109,6 +109,15 @@
 }
 
 .container .nav img {
+    transition: transform 0.1s ease-in-out;
+}
+
+.container .nav img:hover {
+    transform: scale(1.8);
+    box-shadow: 12 px 12px 7px 6px #0000;
+}
+
+.container .nav img {
     width: 33.3%;
     padding: 21px;
 }
@@ -122,4 +131,10 @@
     width: 33.3%;
     padding: 21px;
     object-fit: cover;
+    transition: transform 0.1s ease-in-out;
+}
+
+.container .galery img:hover {
+    transform: scale(2.2);
+    box-shadow: 12 px 12px 7px 6px #0000;
 }
