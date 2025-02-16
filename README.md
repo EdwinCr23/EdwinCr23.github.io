@@ -36,8 +36,4 @@
 
 <p align="left">1. Clona el repositorio<br>2. Abre el index a través de la carpeta o bien puedes abrirlo en Visual Studio Code y ejecutarlo a traves del live server</p>
 
-###
 
-<p align="left">Hello World!!</p>
-
-###
